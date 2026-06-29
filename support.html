@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support de Tally, compteur de scores pour iPhone et iPad.">
+  <title>Support - Tally</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f6f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --accent: #3468f6;
+      --border: #d9deea;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #10131a;
+        --card: #181d27;
+        --text: #f4f7fb;
+        --muted: #b7bfcc;
+        --accent: #85a7ff;
+        --border: #303847;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 48px);
+      box-shadow: 0 24px 60px rgb(15 23 42 / 0.08);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin-top: 36px;
+      margin-bottom: 12px;
+      font-size: 1.25rem;
+    }
+
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .eyebrow,
+    footer {
+      color: var(--muted);
+    }
+
+    .contact {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 4px;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+    }
+
+    .question {
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .question:last-of-type {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="eyebrow">Support officiel</p>
+      <h1>Support Tally</h1>
+      <p>Bienvenue sur la page de support de Tally, le compteur de scores pour vos jeux de cartes, jeux de société, fléchettes et parties entre amis.</p>
+
+      <h2>Questions fréquentes</h2>
+
+      <section class="question">
+        <h3>Comment créer une partie ?</h3>
+        <p>Ouvrez Tally, touchez <strong>Nouvelle partie</strong>, choisissez un nom, sélectionnez la règle de victoire, ajoutez les joueurs, puis touchez <strong>Créer</strong>.</p>
+      </section>
+
+      <section class="question">
+        <h3>Comment modifier un score ?</h3>
+        <p>Utilisez les boutons <strong>+</strong> et <strong>-</strong> sur la ligne d'un joueur pour ajouter ou retirer un point. Pour ajouter ou retirer plusieurs points d'un coup, utilisez le bouton d'ajout par lot.</p>
+      </section>
+
+      <section class="question">
+        <h3>Puis-je sauvegarder plusieurs parties ?</h3>
+        <p>Oui. Tally enregistre vos parties localement sur votre appareil. Vous pouvez créer plusieurs parties, passer de l'une à l'autre, les renommer ou les supprimer.</p>
+      </section>
+
+      <section class="question">
+        <h3>Comment consulter l'historique d'un joueur ?</h3>
+        <p>Touchez le nom ou le score d'un joueur pour ouvrir son historique de points.</p>
+      </section>
+
+      <section class="question">
+        <h3>Comment terminer une partie ?</h3>
+        <p>Touchez le bouton de fin de partie dans la barre d'outils. Les scores sont alors figés et Tally affiche un récapitulatif avec le classement final.</p>
+      </section>
+
+      <section class="question">
+        <h3>Les données sont-elles synchronisées en ligne ?</h3>
+        <p>Non. Tally fonctionne hors ligne et conserve les données localement sur l'appareil.</p>
+      </section>
+
+      <section class="question">
+        <h3>Comment supprimer mes données ?</h3>
+        <p>Vous pouvez supprimer chaque partie depuis la liste des parties. Pour supprimer toutes les données locales, désinstallez l'app.</p>
+      </section>
+
+      <section class="question">
+        <h3>L'activité en direct ne s'affiche pas, pourquoi ?</h3>
+        <p>Les activités en direct dépendent de la compatibilité de l'appareil et des réglages iOS. Vérifiez que votre appareil prend en charge Live Activities et que l'option est autorisée dans les réglages.</p>
+      </section>
+
+      <h2>Contacter le support</h2>
+      <p>Pour signaler un problème ou demander de l'aide, contactez :</p>
+      <p><a class="contact" href="mailto:faience_planche4y@icloud.com">faience_planche4y@icloud.com</a></p>
+      <p>Merci d'inclure si possible :</p>
+      <ul>
+        <li>le modèle de votre appareil ;</li>
+        <li>la version d'iOS ;</li>
+        <li>la version de Tally ;</li>
+        <li>une description des étapes pour reproduire le problème.</li>
+      </ul>
+
+      <footer>
+        <p>Éditeur : Julien Chavee</p>
+        <p>© 2026 Julien Chavee. Tous droits réservés.</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
